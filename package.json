@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-webapi-without-frameworks",
+  "version": "1.0.0",
+  "description": "Welcome, this repo is part of my youtube video about Creating and testing a complete Node.js Rest API (With no frameworks).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:server": "npx nodemon ./src/index.js",
+    "test": "node --test __tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrolgcs/nodejs-webapi-without-frameworks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrolgcs/nodejs-webapi-without-frameworks/issues"
+  },
+  "homepage": "https://github.com/pedrolgcs/nodejs-webapi-without-frameworks#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
